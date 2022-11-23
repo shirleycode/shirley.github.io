@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '学习笔记',
   tagline: 'This is My Notebook',
-  url: 'http://xxx.com',
+  url: 'https://shirley.github.io/',
   baseUrl: 'notebooks',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -18,13 +18,14 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'shirley', // Usually your GitHub org/user name.
   projectName: 'myNotebook', // Usually your repo name.
-
+  deploymentBranch:'pages',
+  // trailingSlash:false,
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
